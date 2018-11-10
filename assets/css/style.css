@@ -25,7 +25,11 @@
 
 .img-thumbnail {
   margin-top: 10px;
-}
+  }
+
+  .btn btn-primary{
+    margin-top: 50px;
+  }
 #logo {
   color: #fff;
   margin-left: 160px; 
@@ -96,31 +100,19 @@ h1 {
     font-size: 22px;
   }
   
-  /* header */
-  
-  /* #masthead {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
-    color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc; */
-  }
-  
-  .img-thumbnail {
-    float: left;
-    width: 250px;
+   
+  .img {
+    /* float: left;
+    width: 50px;s
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 700;
     line-height: 90px;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #4aaaa5; */
   }
   
   nav {
