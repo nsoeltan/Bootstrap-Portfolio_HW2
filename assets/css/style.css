@@ -127,7 +127,7 @@ h1 {
     line-height: 18px;
     color: #999;
     text-decoration: none;
-    border-left: 1px solid #efefef;
+    /* border-left: 1px solid #efefef; */
   }
   
   nav a:first-child {
@@ -267,6 +267,13 @@ h1 {
                 width: 100%;
             }
 
+            #logo {
+              margin: 0;
+            }
+
+            .nav-item {
+              margin-left: 0;
+            }
             
             .main-section {
                 width: 100%;
@@ -278,7 +285,11 @@ h1 {
                 width: 100%;
             }
 
-               .main-section {
+            #logo {
+              margin: 0;
+            }
+
+            .main-section {
                 width: 100%;
             }
         }
@@ -288,10 +299,17 @@ h1 {
                 width: 100%;
             }
 
+            #logo {
+              margin: 0;
+            }
+
             
+
             .main-section {
                 width: 100%;
             }
+
+            
         }
 
         nav {
