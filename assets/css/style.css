@@ -9,6 +9,19 @@
   border-bottom: 2px solid #ccc;
 }
 
+#exampleInputName {
+  font-size: 14px;
+}
+
+#exampleInputEmail1 {
+  font-size: 14px;
+}
+
+#message {
+  font-size: 14px;
+
+}
+
 .navbar-brand {
   float: left;
     width: 250px;
@@ -44,7 +57,7 @@
 }
 .nav-link{
     /* display: inline-block; */
-    padding-left: 15px;
+    /* padding-left: 15px; */
     margin-left: 15px;
     line-height: 18px;
     color: #999;
@@ -261,8 +274,9 @@ h1 {
     border: 0 none;
   }
 
-          /* Small Devices */
-          @media screen and (max-width : 360px) {
+
+       /* Small Devices */
+    @media screen and (max-width : 360px) {
             body {
                 width: 100%;
             }
@@ -271,46 +285,59 @@ h1 {
               margin: 0;
             }
 
-            .nav-item {
-              margin-left: 0;
-            }
-            
+                  
             .main-section {
                 width: 100%;
             }
+
+            ul {
+              padding-left: 0;
+            }
+
+            
         }
         /* Small Devices, Tablets */
         @media screen and (max-width : 768px) {
           body {
-                width: 100%;
-            }
-
-            #logo {
-              margin: 0;
-            }
-
-            .main-section {
-                width: 100%;
-            }
+            width: 100%;
         }
+
+        #logo {
+          margin: 0;
+        }
+
+               
+        .main-section {
+            width: 100%;
+        }
+
+        ul {
+          padding-left: 0;
+        }
+      }
         /* Medium Devices, Desktops */
         @media screen and (max-width : 980px) {
           body {
-                width: 100%;
-            }
+            width: 100%;
+        }
 
-            #logo {
-              margin: 0;
-            }
+        #logo {
+          margin: 0;
+        }
+        
+        .main-section {
+            width: 100%;
+        }
 
-            
-
-            .main-section {
-                width: 100%;
-            }
+        ul {
+          padding-left: 0;
+        }
 
             
         }
+
+        
+        
 
         nav {
           /* Box-model */
@@ -324,10 +351,10 @@ h1 {
           display: inline-block;
         
           /* Box-model */
-          padding-left: 15px;
+          /* padding-left: 15px; */
         
           /* Positioning */
-          margin-left: 15px;
+          /* margin-left: 15px; */
         
           /* Typography */
           line-height: 18px;
@@ -348,10 +375,10 @@ h1 {
         
         nav li:first-child {
           /* Box-model */
-          padding-left: 0;
+          /* padding-left: 0; */
         
           /* Positioning */
-          margin-left: 0;
+          /* margin-left: 0; */
         
           /* Visual */
           border-left: 0 none;
