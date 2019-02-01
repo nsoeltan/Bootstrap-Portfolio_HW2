@@ -22,6 +22,22 @@
 
 }
 
+.card {
+  width: 218px;
+  height: 220px;
+  margin: 10px;
+}
+
+.btn-primary {
+  width: 173px;
+  margin-top: 10px;
+}
+
+.card-body {
+  width: 175px;
+  height: 220px;
+}
+
 .navbar-brand {
   float: left;
     width: 250px;
