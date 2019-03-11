@@ -22,20 +22,31 @@
 
 }
 
-.card {
-  width: 218px;
-  height: 220px;
-  margin: 10px;
+#pic {
+
+  width:290px;
+  height:340px;
 }
 
+.card {
+  width: 200px;
+  height: 200px;
+  /* margin: 10px; */
+  
+  }
+
 .btn-primary {
-  width: 173px;
-  margin-top: 10px;
+  width: 150px;
+  margin-top:5px;  
+  font-size:12px;
+  
+  /* margin-top: 10px; */
 }
 
 .card-body {
   width: 175px;
   height: 220px;
+  
 }
 
 .navbar-brand {
@@ -54,6 +65,12 @@
 
 .img-thumbnail {
   margin-top: 10px;
+  height:120px;
+  width:180px;
+  display: block;
+ margin-left: 6px;
+ 
+  
   }
 
   .btn btn-primary{
@@ -332,7 +349,7 @@ h1 {
         }
       }
         /* Medium Devices, Desktops */
-        @media screen and (max-width : 980px) {
+        @media screen and (max-width : 1366px) {
           body {
             width: 100%;
         }
